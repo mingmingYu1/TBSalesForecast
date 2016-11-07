@@ -1,0 +1,22 @@
+.function-role {
+  .treeContainer {
+    border: 1px solid #ececec;
+    padding: 10px 20px;
+    width: 350px;
+    min-height: 420px;
+  }
+  .table {
+    table-layout: fixed;
+  }
+  .table > tbody > tr {
+    td {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .has-error .treeContainer {
+    border-color: #cf7f7f;
+  }
+}
